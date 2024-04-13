@@ -1,0 +1,53 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#allProducts{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 8rem;
+    gap:30px;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 30px;
+
+}
+.card-div{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    height: 20rem;
+    border-radius: 10px;
+    width: 15rem;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.card-div h3{
+    margin-left: 20px;
+    color: grey;
+ 
+}
+
+.card-div button{
+    margin-left: 8rem;
+}
+.card-div img{
+    width: 100%;
+    height: 50%;
+}
+.addToCart{
+    border: none;
+    background-color: rgb(171, 220, 220);
+    position:  absolute;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    margin-top: -2.1rem;
+    margin-left: 20px;
+    cursor: pointer; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.addToCart:hover{
+    text-decoration: underline;
+}

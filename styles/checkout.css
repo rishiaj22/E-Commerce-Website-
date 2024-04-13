@@ -1,0 +1,36 @@
+#checkout-container{
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#userDetails{
+    box-shadow: rgba(0, 0, 0, 0.826) 0px 1px 4px;
+    border-radius: 20px;
+    margin: auto;
+    width: 20rem;
+    height: 25rem;
+    text-align: center;
+}
+input{
+    font-size: 17px;
+}
+#home_link{
+    border: 2px solid black;
+    width: 5rem;
+    height: 2rem;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+a{
+
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}

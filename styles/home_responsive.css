@@ -1,0 +1,406 @@
+@media only screen and (max-width: 1132px) {
+    .service_content {
+        width: 80%;
+    }
+
+    .skinCareProducts div{
+        width: 35%;
+    }
+    .leftDiv , .rightDiv{
+        height: 70%;
+    }
+    
+.footerDiv{
+
+    grid-template-columns: 35% 50%;
+
+}
+
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .searchDiv{
+        width: 20rem;
+    }
+    .searchDiv input{
+        width: 5%;
+    }
+    #banner_div img{
+        width: 110%;
+    }
+
+
+    .service_content {
+        width: 80%;
+    }
+
+    #featuredMainDiv{
+        width: 98%;
+    }
+
+    .item{
+        padding-bottom: 30px;
+    }
+    .moreBtn{
+        margin-left: 10px;
+    }
+
+    #laptop_banner{
+        height: 12rem;
+    }
+
+    .skinCareProducts{
+        width: 90%;
+    }
+    .clothItemsContainer{
+        width: 95%;
+    }
+
+    #slider_outerDiv{
+        height: 300px;
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .searchDiv{
+        width: 15rem;
+    }
+    .searchDiv input{
+        padding-right: 11rem;
+    }
+    #banner_div img{
+        width: 120%;
+        margin-left: -6rem;
+    }
+
+    #front_content{
+        margin-left: 2rem;
+        height: 17rem;
+        width: 25rem;
+    }
+
+    .service_content {
+        width: 85%;
+        margin-top: 20px;
+    }
+
+    #featuredMainDiv{
+        width:97%;
+    }
+    .item{
+        padding-bottom: 40px;
+    }
+    #featuredProducts{
+        gap:20px;
+    }
+    #laptop_banner{
+        height: 10rem;
+    }
+
+    .clothItemsContainer{
+        grid-template-columns: repeat(3,1fr);
+    }
+    #slider_outerDiv{
+        height: 250px;
+        width: 405px;
+    }
+}
+
+
+@media only screen and (max-width: 808px) {
+    .searchDiv{
+        display: none;
+    }
+    .right_nav{
+        display: none;
+    }
+    .sub_right{
+        display: block;
+    }
+    #banner_div img{
+        width: 130%;
+        margin-left: -7rem;
+    }
+    #front_content{
+        width: 22rem;
+    }
+
+    .service_section {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap:30px;
+    }
+    .service_section div{
+        width: 100%;
+    }
+    #shipping,#online,#money,#promotions,#support{
+        width: 60%;
+    }
+    #laptop_banner{
+        height: 10rem;
+    }
+    /* Featured laptop */
+    #featuredMainDiv{
+        width: 70%;
+    }
+    
+    #featuredProducts{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .item{
+        height: 16rem;
+    }
+    .skinCareProducts{
+        width: 95%;
+    }
+
+    .clothItemsContainer{
+        width: 85%;
+    }
+    #shopNow{
+        font-size: 20px;
+    }
+    #shopNowBtn{
+        margin-left: 50%;
+    }
+        
+.footerDiv{
+    grid-template-columns: 45% 50%;
+    gap:20px;
+
+}
+    
+}
+
+@media only screen and (max-width: 700px) {
+    #banner_div img{
+        width: 150%;
+        margin-left: -13rem;
+    }
+    #front_content{
+        width: 18rem;
+    }
+
+    #shipping,#online,#money,#promotions,#support{
+        width: 70%;
+    }
+        /* Featured laptop */
+        #featuredMainDiv{
+            width: 80%;
+        }
+        #laptop_banner{
+            height: 8rem;
+        }
+    .skinCareBg{
+        background-color: rgb(227,230,243);
+        width: 100%;
+        height: auto;
+        
+    }
+    .skinCareProducts{
+        padding-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .skinCareProducts div{
+        width: 79%;
+        margin: auto;
+    }
+    .clothItemsContainer{
+        grid-template-columns: repeat(2,1fr);
+        width: 60%;
+    }
+
+    #shopNow{
+        font-size: 20px;
+    }
+    #shopNowBtn{
+        margin-left: 30%;
+    }
+    
+        
+}
+@media only screen and (max-width: 600px) {
+    #clothBanner img{
+        height: 7rem;
+    }
+    #slider_section{
+        display: grid;
+        grid-template-columns: repeat(1,fr);
+        place-items: center;
+        margin-left: 0px;
+    }
+    #shopNow{
+        width: 60%;
+    }
+    .footerDiv{
+        grid-template-columns: 100%;
+        gap:20px;
+    
+    }
+    .leftDiv , .rightDiv{
+        width: 80%;
+        margin: auto;
+        gap:0px;
+    }
+    .rightDiv{
+        margin-top: -2rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #banner_div img{
+        width: 190%;
+    }
+    #front_content{
+        width: 20rem;
+    }
+    #skinCare_banner{
+        height: 10rem;
+    }
+    
+    .service_section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap:30px;
+        height: auto;
+    }
+    #slider_outerDiv{
+        margin-left: 0px;
+        width: 370px;
+        height: 220px;
+    }
+
+    
+    #shipping,#online,#money,#promotions,#support{
+        width: 75%;
+    }
+    /* Featured laptop */
+    #featuredMainDiv{
+        width: 90%;
+    }
+    #laptop_banner{
+        height: 6rem;
+    }
+    .skinCareProducts div{
+        width:93%;
+        margin: auto;
+    }
+    .clothItemsContainer{
+        width: 86%;
+    }
+    #clothBanner img{
+        height: 6rem;
+    }
+    #slider_section{
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1,fr);
+        place-items: center;
+    }
+    #slider_outerDiv{
+        margin-left: 0px;
+    }
+    #shopNow{
+        width: 60%;
+    }
+
+}
+
+
+@media only screen and (max-width: 400px) {
+    #banner_div img{
+        width: 220%;
+        margin-left: -15rem;
+    }
+    #front_content{
+        width: 17rem;
+    }
+    /* Featured laptop */
+    #featuredMainDiv{
+        width: 70%;
+    }
+    #featuredProducts{
+        grid-template-columns: repeat(1,1fr);
+    }
+    #laptop_banner{
+        height: 6rem;
+    }
+    .skinCareProducts{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap:20px;
+    }
+    .skinCareProducts div{
+        width: 70%;
+    }
+    .clothItemsContainer{
+        grid-template-columns: repeat(1,1fr);
+        width:55%;
+    }
+    #clothBanner img{
+        height: 5rem;
+    }
+    #slider_outerDiv{
+        margin-left: 0px;
+        width: 290px;
+        height: 190px;
+    }
+    #shopNow{
+        font-size: 17px;
+        margin-left: -3rem;
+    }
+}
+
+@media only screen and (max-width: 304px) {
+    #banner_div img{
+        width: 260%;
+        margin-left: -20rem;
+    }
+    #front_content{
+        width: 15rem;
+    }
+    #shipping,#online,#money,#promotions,#support{
+        width: 85%;
+    }
+    #skinCare_banner{
+        height: 7rem;
+    }
+    /* Featured laptop */
+    #featuredMainDiv{
+        width: 80%;
+    }
+    #laptop_banner{
+        height: 4rem;
+    }
+    #clothBanner img{
+        height: 4rem;
+    }
+    .clothItemsContainer{
+        width:70%;
+    }
+    #slider_outerDiv{
+        margin-left: 0px;
+        width: 250px;
+        height: 150px;
+    }
+    #shopNow{
+        font-size: 15px;
+        margin-left: -3rem;
+    }
+    .leftDiv , .rightDiv{
+        border: 2px solid red;
+        height: 100%;
+        width: 90%;
+    }
+    .rightDiv div{
+        margin-left: -8px;
+        width: 90%;
+    }
+}
+

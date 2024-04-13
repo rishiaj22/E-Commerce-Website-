@@ -1,0 +1,127 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#subRoot{
+    height: 90%;
+    width: 100%;
+    margin-top: 4.5rem;
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgb(0,0,0,0.5)), url("https://images.pexels.com/photos/585752/pexels-photo-585752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow-y: auto;
+}
+
+.user-container{
+    width: 40rem;
+    height: 25rem;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    background-color: white;
+    box-shadow: rgba(157, 220, 245, 0.35) 0px 5px 15px;
+}
+
+.registration{
+    border: 2px solid green;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    display:none;
+}
+
+.registration_left{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgb(0,0,0,0.5)),url("https://assets.bowlandybs.com/_thumbnail/ANB_Andy-B%E2%80%99s-Denton-Tx-Slider-5.jpg?mtime=20200923195247&focal=46.39%25+44.45%25&tmtime=20210107172016");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.login{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.btn{
+    border: 1px solid white;
+    padding: 5px 10px 5px 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    background: transparent;
+    color: white;
+    transition: all 0.2s linear;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.registration_form{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
+
+}
+
+.registration_form input{
+    background-color: rgb(237, 237, 237);
+    border: none;
+    padding: 5px;
+    margin: 8px;
+}
+#register-submit{
+    background: rgb(9, 101, 151);
+    font-size: 14px;
+    border: none;
+    padding: 7px 4rem 7px 4rem;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+
+.login-left{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgb(0,0,0,0.5)), url("https://th.bing.com/th/id/OIP.4E_e2_jtOA_ALgbPJMviMgHaE8?w=1200&h=801&rs=1&pid=ImgDetMain");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.login_form{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
+
+}
+.login_form input{
+    background-color: rgb(237, 237, 237);
+    border: none;
+    padding: 5px;
+    margin: 8px;
+}
+#login-submit{
+    background: rgb(9, 101, 151);
+    font-size: 14px;
+    border: none;
+    padding: 7px 4rem 7px 4rem;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+#login_complete{
+    text-align: center;
+}

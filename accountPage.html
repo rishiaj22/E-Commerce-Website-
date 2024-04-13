@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/home_responsive.css">
+    <link rel="stylesheet" href="styles/account.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+    <div id="navbar"></div>
+    <div id="root">
+        <div id="subRoot">
+            <div class="user-container login-section-display">
+                <div class="registration">
+
+                    <div class="registration_left">
+                        <h2>Welcome Back!</h2>
+                        <p>To keep connected with us please login with your personal information</p>
+                        <button class="btn" id="login-btn">Login Here</button>
+                    </div>
+
+                    <div class="registration_form">
+                        <h2>Create Account</h2>
+                        <form action="#" id="registerForm">
+                            <label for="register-username">
+                                <input id="register-username" type="text" placeholder="Name" required>
+                            </label>
+                            <label for="register-email">
+                                <input id="register-email" type="email" placeholder="Email" required>
+                            </label>
+                            <label for="register-password">
+                                <input id="register-password" type="password" placeholder="Password" required>
+                            </label>
+                            <br><br>
+                            <button id="register-submit" type="submit">Register</button>
+                        </form>
+                        
+                        
+                        <br>
+                        <p id="registration_complete"></p>
+                    </div>
+
+                </div>
+
+                <div class="login">
+                    <div class="login-left">
+                        <h2>Hello, User!</h2>
+                        <p>Enter your personal details and start journey with us.</p>
+                        <button class="btn" id="register-btn">Register Here</button>
+                    </div>
+
+                    <div class="login_form">
+                        <h2>Sign In</h2>
+                        <form action="#" id="loginForm" >
+                            <label for="email">
+                                <input id="login-email" type="email" placeholder="Email" required>
+                            </label>
+                            <label for="password">
+                                <input id="login-password" type="password" placeholder="Password" required>
+                            </label>
+                            <br><br>
+                            <button id="login-submit" type="submit">Login</button>
+                        </form>
+                        
+                        <br>
+                        <p id="login_complete"></p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+
+    <script src="navBar.js " type="module"></script>
+    <script src="account.js" type="module"></script>
+</body>
+</html>

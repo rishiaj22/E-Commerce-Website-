@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link rel="stylesheet" href="styles/checkout.css">
+  </head>
+  <body>
+    <div id="checkout-container">
+      <div id="home_link">
+        <a href="indexFinal.html">Home</a>
+      </div>
+      <div id="userDetails">
+        <h1>Checkout</h1>
+        <form action="#">
+          <label for="name">Enter Your Name :-</label><br><br>
+          <input type="text" id="name" placeholder="Enter Your Name"><br><br>
+          <label for="number">Enter Your Number :-</label><br><br>
+          <input type="number" id="number" placeholder="Enter Your Number"><br><br>
+          <label for="address">Enter Your Address</label><br><br>
+          <input type="text" id="address" placeholder="Enter Your Address"><br><br>
+          <button id="place-order">Place Order</button>
+        </form>
+        <h4 id ="order-message"></h4>
+
+      </div>
+      <!-- - In checkout.html page name, number and address should have Ids as “name”, “number” and “address” respectively. -->
+      <!-- - Checkout page will have a Place Order button with Id :- "place-order" -->
+    </div>
+  </body>
+  <script src="src/scripts/checkout.js"></script>
+</html>
