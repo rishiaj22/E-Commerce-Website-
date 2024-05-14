@@ -19,6 +19,7 @@ body{
 }
 
 .user-container{
+    border-radius: 10px;
     width: 40rem;
     height: 25rem;
     display: grid;
@@ -28,13 +29,14 @@ body{
 }
 
 .registration{
-    border: 2px solid green;
+    border: 4px solid orange;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     display:none;
 }
 
 .registration_left{
+    border: 4px solid olivedrab;
     background-image: linear-gradient(rgba(0,0,0,0.3),rgb(0,0,0,0.5)),url("https://assets.bowlandybs.com/_thumbnail/ANB_Andy-B%E2%80%99s-Denton-Tx-Slider-5.jpg?mtime=20200923195247&focal=46.39%25+44.45%25&tmtime=20210107172016");
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,6 +47,7 @@ body{
     flex-direction: column;
 }
 .login{
+    border: 4px solid yellow;
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
@@ -63,6 +66,7 @@ body{
     color: black;
 }
 .registration_form{
+    border: 4px solid purple;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -89,6 +93,7 @@ body{
 }
 
 .login-left{
+    border: 4px solid aqua;
     background-image:linear-gradient(rgba(0,0,0,0.3),rgb(0,0,0,0.5)), url("https://th.bing.com/th/id/OIP.4E_e2_jtOA_ALgbPJMviMgHaE8?w=1200&h=801&rs=1&pid=ImgDetMain");
     background-size: cover;
     background-repeat: no-repeat;
@@ -99,6 +104,7 @@ body{
     flex-direction: column;
 }
 .login_form{
+    border: 4px solid hotpink;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -124,4 +130,8 @@ body{
 }
 #login_complete{
     text-align: center;
+}
+
+@media only screen and (max-width:700px ){
+
 }

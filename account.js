@@ -1,5 +1,4 @@
 // Store Register information in the local Storage  
-
 const registerForm = document.getElementById("registerForm");
 const registerSubmitButton = document.getElementById("register-submit");
 

@@ -162,7 +162,7 @@ skinBanner.append(skinCare_img);
 // SkinCares data
 const skinCareData = [
     { brand: "L'Oreal Paris", title: "Hyaluronic Acid Serum", thumbnail: "https://cdn.dummyjson.com/product-images/16/thumbnail.jpg", price: 999 },
-    { brand: "Suger", title: "Matte As Hell Crayon Lipstick ", thumbnail: "https://cdn.shopify.com/s/files/1/0906/2558/files/554408657-wedding-makeup-kit-revamp_1.jpg?v=1700475948", price: 999 },
+    { brand: "Sugar", title: "Matte As Hell Crayon Lipstick ", thumbnail: "https://cdn.shopify.com/s/files/1/0906/2558/files/554408657-wedding-makeup-kit-revamp_1.jpg?v=1700475948", price: 999 },
     { brand: "Nykka", title: "Skin Product 6", thumbnail: "https://images-static.nykaa.com/uploads/095c90fd-55b4-44c2-91b8-9335b5b0ec30.jpg?tr=w-600,cm-pad_resize", price: 1049 },
     { brand: "Nykka", title: "Lipstick", thumbnail: "https://images-static.nykaa.com/media/catalog/product/6/8/68b8f74MACXX00001310_1.jpg?tr=w-344,h-344,cm-pad_resize", price: 3034 },
 
@@ -211,6 +211,9 @@ const shopNow_Btn = document.createElement("button");
 shopNow_Btn.textContent = "Shop Now";
 shopNow_Btn.className = "shopBtn";
 shopNow_Btn.id = "shopNowBtn";
+shopNow_Btn.addEventListener('click',function(){
+    window.location.href = "product.html";
+})
 shopNow_content.append(shopNow_contentSpan);
 shopNow.append(shopNow_content,shopNow_Btn);
 // Slider Section
