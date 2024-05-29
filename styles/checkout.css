@@ -15,7 +15,7 @@
     background: white;
     margin: auto;
     width: 20rem;
-    height: 25rem;
+    height: 27rem;
     text-align: center;
     padding-bottom: 20px;
 }
@@ -41,6 +41,9 @@ button{
     padding: 10px 25px 10px 25px;
     font-weight: 600;
     cursor: pointer; 
-    margin-top: 10px ;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#payment h4{
+    margin-left: -4rem;
+    margin-top: -1rem;
 }

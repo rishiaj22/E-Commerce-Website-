@@ -8,7 +8,7 @@ bannerImg.src = "images/banner.png";
 
 bannerDiv.append(bannerImg);
 
-// Create Serices div
+// Create Services div
 const service_section = document.createElement("section");
 service_section.className = "service_section";
 
